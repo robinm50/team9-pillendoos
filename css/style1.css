@@ -80,9 +80,11 @@ h1{
     border-radius: 10px;
     padding:20px;
 }
+
 .introduction p{
     font-size:1.25rem;
 }
+
 .introduction h2{
     font-size: 2.5rem;
     margin:20px;
@@ -94,8 +96,17 @@ article{
     padding:20px 0;
 }
 
+.left{
+    width:50%;
+    flex:1;
+}
+
+.right{
+    flex:2;
+}
+
 article img{
-    height: 250px;
+    width: 100%;
 }
 
 footer nav img{
@@ -134,6 +145,10 @@ footer a:hover{
 @media (max-width: 470px){
     header{
        font-size:2rem;
+    }
+
+    .functions{
+        margin:0,20px;
     }
     
 }

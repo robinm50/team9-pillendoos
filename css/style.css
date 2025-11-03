@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.center-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b298dc;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-right a{
+    padding: 30px 20px;
+}
+
+.nav-right a:hover{
+    background-color: #dbcdf0;
+}
+
+nav img{
+    width: 100px;
+    border-radius: 10px;
+    height: 90px;
+    object-fit: cover;
+    align-self: center;
+    margin: 10px 15px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #dbcdf0;
+}
+
+main {
+     flex: 1;
+}
+
+
+article{
+    display: flex;
+    gap: 20px;
+}
+
+.end-product img{
+    width: 100%;
+}
+
+a.button-default{
+    background-color: #b298dc;
+    color:#000000;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+a.button-default:hover{
+    background-color: #dbcdf0;
+    transform: scale(1.05);
+}
+
+#our-goal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dbcdf0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#our-goal p{
+    margin-bottom: 0;
+}
+
+footer nav img{
+    margin: 0;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.left-foot{
+    display: flex;
+}
+
+.left-foot a{
+    padding: 10px 10px;
+}
+
+.right-foot{
+    display: flex;
+}
+
+.right-foot a{
+    padding: 30px 20px;
+}
+
+form .formfield{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 20px;
+}
+
+form label{
+    font-weight: bold;
+}
+
+form input, select{
+    padding: 10px 10px;
+}
+
+form{
+    margin-bottom: 50px;
+    padding: 0 10px 0 10px;
+}
+
+input:user-invalid{
+    border: 2px solid red;
+}
+
+textarea:user-invalid{
+    border: 2px solid red;
+}
+
+select:user-invalid{
+    border: 2px solid red;
+}
+
+form button{
+    padding: 10px 10px;
+    background-color:#b298dc;
+    color: #000000;
+    border-radius: 5px;
+    border: 2px solid #b298dc;
+}
+
+form button:hover{
+    background-color:#dbcdf0;
+    border:2px solid #dbcdf0;
+}
+
+@media (max-width: 470px){
+    article{
+        flex-direction: column;
+    }
+    .about-product{
+        padding: 20px 10px;
+    }
+}

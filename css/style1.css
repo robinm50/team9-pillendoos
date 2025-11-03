@@ -114,6 +114,14 @@ footer a:hover{
     padding: 30px 20px;
 }
 
+@media (max-width: 400px){
+    .nav-right{
+        flex-direction: column;
+    }
+    .nav-right a{
+        padding: 10px 20px;
+    }
+}
 
 @media (max-width: 470px){
     header{

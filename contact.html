@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo.jpg" alt="logo van kikker in opblaasbare zwembad eend">
+            </a>
+        </div>
+
+        <div class="nav-right">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">over ons</a>
+        </div>
+    </nav>
+
+    <header>
+
+    </header>
+
+    <main>
+            <form>
+        <div class="form-columns center-container">
+            <div class="formfield-row">
+                <div class="formfield">
+                    <label for="first-name">Voornaam*</label>
+                    <input type="text" id="first-name" name="first-name" required placeholder="Voer volledige voornaam in..." />
+                </div>
+
+                <div class="formfield">
+                    <label for="last-name">Achternaam*</label>
+                    <input type="text" id="last-name" name="last-name" required placeholder="Voer volledige achternaam in..." />
+                </div>
+            </div>
+            <div class="formfield">
+                <label for="email">E-mail*</label>
+                <input type="email" id="email" name="email" required placeholder="Voer e-mailadres in..." />
+            </div>
+
+            <div class="formfield-row">
+                <div class="formfield">
+                    <label for="city">Woonplaats*</label>
+                    <input type="text" id="city" name="city" required placeholder="Voer woonplaats in..." />
+                </div>
+
+                <div class="formfield">
+                    <label for="birthdate">Geboortedatum*</label>
+                    <input type="date" id="birthdate" name="birthdate" required />
+                </div>
+            </div>
+
+            <div class="formfield">
+                <label for="subject">Onderwerp*</label>
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Kies onderwerp van het bericht...</option>
+                    <option value="0">Vraag</option>
+                    <option value="1">Klacht</option>
+                </select>
+            </div>
+
+            <div class="formfield">
+                <label for="message">Bericht*</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" required value="terms-and-conditions" />
+                <label for="terms-and-conditions">Ik ga akkoord met de algemene voorwaarden</label>
+            </div>
+
+            <div class="formfield">
+                <button type="submit">Verzenden</button>
+            </div>
+        </div>
+    </form>
+    </main>
+
+    <footer>
+        <nav>
+            <div class="left-foot">
+                <a href="#">
+                    <img src="images/logo.jpg" alt="logo van kikker in opblaasbare zwembad eend">
+                </a>
+            </div>
+
+            <div class="right-foot">
+                <a href="#">Privacyverklaring</a>
+                <a href="#">Algemene voorwaarden</a>
+                <a href="#">Cookiebeleid</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>

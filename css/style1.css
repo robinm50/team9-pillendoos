@@ -121,3 +121,12 @@ footer a:hover{
     }
     
 }
+
+@media (max-width: 616px){
+    footer .right-foot{
+        flex-direction: column;
+    }
+    footer .right-foot a{
+        padding: 10px 20px;
+    }
+}

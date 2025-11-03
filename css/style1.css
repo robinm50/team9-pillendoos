@@ -93,7 +93,15 @@ h1{
 article{
     display:flex;
     gap:20px;
-    padding:20px 0;
+    padding:20px 0; 
+}
+
+article img{
+    width: 100%;
+}
+
+.functions article{
+    padding:20px;
 }
 
 .left{
@@ -103,10 +111,6 @@ article{
 
 .right{
     flex:2;
-}
-
-article img{
-    width: 100%;
 }
 
 footer nav img{
@@ -148,7 +152,7 @@ footer a:hover{
     }
 
     .functions{
-        margin:0,20px;
+        padding:0 20px;
     }
     
 }

@@ -22,8 +22,15 @@ nav{
 
 nav a{
     text-decoration: none;
-    padding: 30px 20px;
     color: #000000;
+}
+
+.nav-right{
+    display: flex;
+}
+
+.nav-right a{
+    padding: 30px 20px;
 }
 
 .nav-right a:hover{
@@ -38,6 +45,7 @@ nav img{
     align-self: center;
     margin: 10px 15px;
 }
+
 
 header{
     text-align:center;

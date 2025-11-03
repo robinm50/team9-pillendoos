@@ -27,6 +27,10 @@ nav a{
     color: #000000;
 }
 
+.nav-right{
+    display: flex;
+}
+
 .nav-right a{
     padding: 30px 20px;
 }
@@ -58,10 +62,13 @@ main {
 article{
     display: flex;
     gap: 20px;
+    padding-bottom: 30px;
 }
 
 .end-product img{
     width: 100%;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 a.button-default{
@@ -78,7 +85,7 @@ a.button-default:hover{
     transform: scale(1.05);
 }
 
-#our-goal{
+.our-goal{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,7 +94,7 @@ a.button-default:hover{
     padding-bottom: 20px;
 }
 
-#our-goal p{
+.our-goal p{
     margin-bottom: 0;
 }
 
@@ -160,11 +167,36 @@ form button:hover{
     border:2px solid #dbcdf0;
 }
 
+@media (max-width: 400px){
+    .nav-right{
+        flex-direction: column;
+    }
+    .nav-right a{
+        padding: 10px 20px;
+    }
+}
+
 @media (max-width: 470px){
     article{
         flex-direction: column;
     }
     .about-product{
         padding: 20px 10px;
+    }
+    .end-product img{
+        margin: 0;
+        border-radius: 0;
+    }
+    .our-goal{
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 616px){
+    footer .right-foot{
+        flex-direction: column;
+    }
+    footer .right-foot a{
+        padding: 10px 20px;
     }
 }

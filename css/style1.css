@@ -90,12 +90,26 @@ article img{
     height: 250px;
 }
 
-footer{
-    background-color: #2d2041;
-    
+footer nav img{
+    margin: 0;
 }
-
 
 footer a:hover{
     text-decoration: underline;
+}
+
+.left-foot{
+    display: flex;
+}
+
+.left-foot a{
+    padding: 10px 10px;
+}
+
+.right-foot{
+    display: flex;
+}
+
+.right-foot a{
+    padding: 30px 20px;
 }

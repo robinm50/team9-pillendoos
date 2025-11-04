@@ -91,6 +91,8 @@ h1{
 }
 .functions{
     padding: 0 20px;
+}
+
 article{
     display:flex;
     gap:20px;
@@ -158,4 +160,5 @@ footer a:hover{
     }
 
 }
+
 
